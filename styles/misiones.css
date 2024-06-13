@@ -1,0 +1,43 @@
+.contenedor {
+    /* display: flex; hace que un contenedor organice sus elementos hijos en una fila o columna de manera flexible, permitiendo un mejor control sobre su alineación y distribución del espacio.
+
+ */
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    /* Esto es para que no ayan dobles bordes */
+    border-collapse: collapse;
+    border: 2px solid gray;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+
+}
+
+th {
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+td {
+    border: 1px solid gray;
+    padding: 10px;
+    color: aliceblue;
+}
+
+
+h2 {
+    margin: 0;
+    padding: 20px;
+}
+
+tr {
+    background-color: black;
+}
+
+tr:hover {
+    background: linear-gradient(to right, #ffcc00, #ff6666);
+}

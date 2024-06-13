@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffcc00, #ff6666);
+    /* Le pongo maring 0 y padding 0 porque asi puedo trabajr dentro sin necesidad
+    de estar dirigiendome al body */
+    padding: 0;
+    margin: 0;
+    padding-bottom: 150px;
+}
+
+header {
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+    /* Esto nos permite controlar a nuestro antojo los li que estan
+    dentro del ul es decir a nuestro antojo*/
+    margin: 0;
+    padding: 0;
+    /* Quiero que no me salga los scrroll en la barra de navegacion */
+    overflow: hidden;
+    background: linear-gradient(to right, #000000, #ff6666);
+}
+
+li {
+    /* Esto nos permite a que cada li valla hacia la iquierda y se pegen uno detras de la otra */
+    float: left;
+}
+
+li a {
+    /* dispplay block Esto nos permite ocupar todo el ancho posible */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    /*     text-decoration: none;
+    nos saca lo subrallado del link */
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #1cbaee;
+}
+
+h1 {
+    background: linear-gradient(to right, #000000, #ff6666);
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
